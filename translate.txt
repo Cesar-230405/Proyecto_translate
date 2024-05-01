@@ -1,0 +1,2 @@
+If,Si,declarar variable
+If,Si,Operador Logico
