@@ -19,7 +19,7 @@ vector<string> split(const string& s, char delimiter) {
 
 void menu(){
 	
-	cout<<"Elija una opción"<<endl;
+	cout<<"Elija una opcion"<<endl;
 	cout<<"1-Crear"<<endl;
 	cout<<"2-Leer"<<endl;
 	cout<<"3-Editar"<<endl;
@@ -93,11 +93,11 @@ int main(){
 				
 			break;
 			case 6: 
-				cout<<"Cerrando sesión :)";
+				cout<<"Cerrando sesion :)";
 			break;
 			
 			default: 
-				cout<<"Opción invalida"<<endl;
+				cout<<"Opcion invalida"<<endl;
 		}
 	}while(opcion!=6);
 	

@@ -1,2 +1,3 @@
 If,Si,declarar variable
 If,Si,Operador Logico
+do,hacer,un ciclo para realizar una accion
