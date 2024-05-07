@@ -1,5 +1,124 @@
-if,si,hfsjfksfjhdslkjf
-for,para,hooooooooo
-case,caso,ooooooo
-bool,boleano,siono
-lower,bajo,bajooooooooo
+asm,ensamble,implica la colocación de dos o más piezas individuales para la conformación de un producto final 
+
+auto,auto, propio o por uno mismo 
+
+bool,booleano, se indica que toda variable puede definirse en dos estados: verdadero o falso 
+
+break,romper, Separar las partes de un todo o deshaciendo su union 
+
+case,caso, Suceso, acontecimiento 
+
+catch,captura, Accion y efecto de capturar 
+
+char,carbonizar, Reducir algo a carbon 
+
+class,clase, Conjunto de elementos con caracteres comunes 
+
+const,constante, Que se presenta continuamente o reiteradamente. 
+
+const_Cast, operador, convierte un valor de puntero nulo al valor de puntero nulo del tipo de destino.  
+
+continue,continuar, Seguir haciendo lo comenzado. 
+
+default, por defecto, que se actua automaticamente si no se elige otra opcion 
+
+delete,borrar, hacer que desaparezca algo. 
+
+do,hacer, poner por obra una accion o trabajo 
+
+double, doble, El resultado de sumar dos veces la misma cantidad es el doble de dicha cantidad. 
+
+dynamic,dinamica, Perteneciente o relativo a la fuerza cuando produce movimiento 
+
+cast,elenco, Catalogo o indice. 
+
+else, demas, Ejecutan una o varias sentencias de manera condicional 
+
+enum, enumeracion, Accion y efecto de enumera 
+
+explicit, explicitamente, Que expresa o manifiesta algo de un modo directo y claro. 
+
+extern, externo, significa que esta por fuera o que viene de exterior 
+
+false,falso, Fingido o simulado. 
+
+float,flotante,define un tipo de dato que representa numeros de punto flotante de precision simple 
+
+for,para, permite representar un numero positivo o negativo con decimales  
+
+friend, amigo, persona con quien se mantiene una amistad 
+
+go_to , ir_a, para llegar a i  
+
+if,  si, es una condicion para discernir entre una opcion u otra 
+
+inline, en_linea, Las instrucciones que escribe un programador al crear un programa  
+
+int, entero, permite representar numeros enteros  
+
+long,larga, se almacenan como números con signo de 32 bits Mutable- mudable 
+
+namespace,espacio de nombres , se puede utilizar para solicitar explicitamente un elemento del espacio de nombres o subespacio de nombres actua 
+
+new, nuevo, Que se percibe o se experimenta por primera vez 
+
+operator,operadora: representa un simbolo que permite realizar operaciones aritmeticas, relacionar elementos o hacer preguntas donde se involucra mas de una condicion, 
+
+private,privado, modo de navegacion por internet en el cual el navegador no guarda ningun tipo de informacion sobre las paginas web visitada 
+
+protected,protegido, Persona acogida a la proteccion de otra. 
+
+public,publico, se encuentra en un espacio abierto donde todos tienen acceso a escuchar o ver lo que se dice o se presenta	l 
+
+register, restringido, reducir a menores limites. 
+
+reinterpret,reinterpretar, Traducir o tranformar. 
+
+cast,elenco, convertir un tipo de variable a otro  
+
+return, devolver, termina la ejecucion de una funcion y devuelve el control a la funcion de llamada 
+
+short,corto, signo opcional seguido de una secuencia de longitud finita de digitos decimales 
+
+signed,firmado, modificadores que se puede utilizar con cualquier tipo entero excepto bool 
+
+sizeof,tamaño de, funcion resolver cualquier duda que tengas sobre el tamaño de una estructura de datos 
+
+static,estatico, componente de la clase que es compartido por todas las instancias (objetos) de la misma 
+
+static_Cast,transmision_estatica, convierte un valor de puntero nulo al valor de puntero nulo del tipo de destino 
+
+struct,estructura,indica que los elementos que vienen agrupados a continuacion entre llaves componen una estructura 
+
+switch,cambiar,estructura de control condicional que permite definir múltiples casos que puede llegar a cumplir una variable cualquiera 
+
+template,plantilla,permite que funciones y clases operen con tipos genericos 
+
+this,esto,puntero generado por el compilador al objeto actual en funciones miembro no estaticas 
+
+throw,Tirar, indica que se ha producido una condicion excepcional a menudo un error 
+
+true,verdadero, palabra clave es uno de los dos valores para una variable de tipo bool o una expresión condicional 
+
+try, intentar, se utiliza para probar un bloque de codigo en busca de errores 
+
+typedef, definir_tipo, permite crear alias para tipos de datos existentes 
+
+typeid, type_id, devuelve un objeto que representa el tipo de una expresion
+
+typename, type_name, utilizado en plantillas para declarar un parametro de tipo 
+
+union,union,define una estructura en la que varios elementos comparten la misma memoria 
+
+unsigned,sin_signo,define tipos de datos que no contienen signo (positivos) 
+
+using,usando,permite crear alias para valores o funciones 
+
+virtual,virtual,se utiliza en la herencia para declarar funciones que pueden ser sobrescritas en clases derivadas 
+
+void,vacio,indica que una funcion no devuelve ningun valor 
+
+volatile,volatil,especifica que una variable puede ser modificada fuera del flujo normal del programa 
+
+while,mientras,estructura de control que se utiliza para repetir un bloque de codigo mientras se cumpla una condicion
+cout,texto_salida,mostrar en consola el texto

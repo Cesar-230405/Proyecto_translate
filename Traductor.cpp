@@ -19,7 +19,7 @@ vector<string> split(const string& s, char delimiter) {
 
 void menu(){
 	
-	cout<<"\nElija una opciÃ³n"<<endl;
+	cout<<"\nElija una opcion"<<endl;
 	cout<<"1-Crear"<<endl;
 	cout<<"2-Leer"<<endl;
 	cout<<"3-Editar"<<endl;
@@ -161,22 +161,52 @@ void Eliminar(){
 }
 
 string Buscar(string palabra){
+	//variable traducido retorna la palabra reservada en nuestro txt 
 	string traducido;
-	return traducido;
-	
+	ifstream archivo("translate.txt");
+    
+    if (archivo.is_open()) {
+        string linea;
+        //tenemos abierto el archivo y la palabra no existe, le retorna la misma palabra que ingresó 
+        traducido=palabra;
+        
+        while (getline(archivo, linea)) {
+          vector<string> palabras = split(linea, ',');
+          //se valida que la linea tenga 3 palabras separadas por coma 
+          if (palabras.size() == 3 && palabras[0] == palabra) {
+            traducido=palabras[1];
+          }
+        }
+        
+        archivo.close();
+      } else {
+        traducido=palabra;
+      }	
+  
+  return traducido;	
 }
 
 void Traductor(){
-	string codigo;
+	string codigo, codigoTraducido = "";
 	
-	cout<<"Ingrese codigo por favor: ";
+	cout<<"Ingrese codigo por favor: "<<endl;
 	cin.ignore();
 	getline(cin,codigo);
 		
 	vector<string>palabras=split(codigo,' ');
+	//utilizamos size para obtener el tamaño del vector y ver cuantas palabras hay para traducir esas palabras
 	for (int i=0; i<palabras.size();i++){
-		cout<<"el valor de "<<palabras[i]<<endl;
-	}			
+		//la variable palabra es el vector donde se almacena nuestras palabras separadas por un espacio
+		if(i==0 && palabras[i]== "{" ) {} 
+		else if(i==palabras.size()+ 1 && palabras[i]== "}" ){}
+		else {
+			codigoTraducido += Buscar(palabras[i])+" "; 
+		}
+		
+	 }		
+    
+    cout<<"Codigo traducido: "<<endl;
+    cout<<"\n"<<codigoTraducido<<endl;	
 }
 
 int main(){
@@ -206,7 +236,7 @@ int main(){
 			break;
 			
 			default: 
-				cout<<"OpciÃ³n invalida"<<endl;
+				cout<<"Opcion invalida"<<endl;
 		}
 	}while(opcion!=6);
 	
