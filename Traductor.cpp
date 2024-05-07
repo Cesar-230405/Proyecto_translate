@@ -159,22 +159,21 @@ void Eliminar(){
 		cout<<"No fue posible aperturar el archivo";
 	}
 }
+
+string Buscar(string palabra){
+	string traducido;
+	return traducido;
 	
+}
+
 void Traductor(){
-	string codigo,texto;
+	string codigo;
 	
 	cout<<"Ingrese codigo por favor: ";
-	/*cin.ignore();
-	getline(cin,codigo);*/
-	while (getline(cin, codigo)) {
-    texto += codigo + "\n"; // Agrega la línea con un salto de línea
-  }
-
-  // Elimina el último salto de línea (opcional)
-  if (!texto.empty()) {
-    texto.erase(texto.size() - 1);
-  }	
-	vector<string>palabras=split(texto,' ');
+	cin.ignore();
+	getline(cin,codigo);
+		
+	vector<string>palabras=split(codigo,' ');
 	for (int i=0; i<palabras.size();i++){
 		cout<<"el valor de "<<palabras[i]<<endl;
 	}			
