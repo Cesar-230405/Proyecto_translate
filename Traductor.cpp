@@ -167,7 +167,7 @@ string Buscar(string palabra){
     
     if (archivo.is_open()) {
         string linea;
-        //tenemos abierto el archivo y la palabra no existe, le retorna la misma palabra que ingresó 
+        //tenemos abierto el archivo y la palabra no existe, le retorna la misma palabra que ingresÃ³ 
         traducido=palabra;
         
         while (getline(archivo, linea)) {
@@ -194,11 +194,11 @@ void Traductor(){
 	getline(cin,codigo);
 		
 	vector<string>palabras=split(codigo,' ');
-	//utilizamos size para obtener el tamaño del vector y ver cuantas palabras hay para traducir esas palabras
+	//utilizamos size para obtener el tamaÃ±o del vector y ver cuantas palabras hay para traducir esas palabras
 	for (int i=0; i<palabras.size();i++){
 		//la variable palabra es el vector donde se almacena nuestras palabras separadas por un espacio
 		if(i==0 && palabras[i]== "{" ) {} 
-		else if(i==palabras.size()+ 1 && palabras[i]== "}" ){}
+		else if(i+1 ==palabras.size() && palabras[i]== "}" ){}
 		else {
 			codigoTraducido += Buscar(palabras[i])+" "; 
 		}
@@ -232,7 +232,7 @@ int main(){
 				Traductor();
 			break;
 			case 6: 
-				cout<<"Cerrando sesionn :)";
+				cout<<"Cerrando sesion :)";
 			break;
 			
 			default: 
@@ -242,4 +242,3 @@ int main(){
 	
 	return 0;
 }
-
